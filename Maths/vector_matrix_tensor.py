@@ -22,8 +22,3 @@ print("Tensor")
 print(f"Tensor array: \n{x}")
 print(f"Tensor dimension: {x.ndim}")
 print()
-
-(train_images, train_labels), (test_images, test_labels) = mnist.load_data()
-
-print(f"Images dimension: {train_images.ndim}")
-print(f"Images shape (numbers, width, length): {train_images.shape}")
